@@ -28,3 +28,17 @@ body {
     line-height: 1.6;
     margin-bottom: 100px;
 }
+
+/* HEADER */
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+    background-color: var(--header);
+}
+
+.title {
+    font-size: 32px;
+    color: var(--primary-yellow);
+    font-family: 'Press Start 2P', cursive;
+}
