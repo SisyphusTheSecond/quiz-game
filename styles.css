@@ -11,9 +11,9 @@
 *,
 *::before
 *::after {
-    box-sizing: border-box;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -31,10 +31,16 @@ body {
 
 /* HEADER */
 .header {
+    width: 100%;
     display: flex;
     justify-content: center;
     padding: 40px 0px;
     background-color: var(--header);
+    margin-left: -8px; 
+    margin-right: -8px; 
+    margin-top: -8px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 .title {
@@ -43,6 +49,88 @@ body {
     font-family: 'Press Start 2P', cursive;
 }
 
+/* MAIN */
+
+.main {
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+.app {
+    background: var(--primary-light);
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.app h1 {
+    font-size: 18px;
+    color: var(--primary-dark);
+    font-weight: 600;
+    letter-spacing: .05rem;
+    font-family: 'Press Start 2P', cursive;
+    border-bottom: 2px solid var(--primary-dark);
+    padding-bottom: 30px;
+}
+
+.quiz {
+    padding: 20px 0;
+}
+
+.quiz h2 {
+    color: var(--secondary-dark);
+    font-weight: 600;
+    text-align: left;
+}
+
+.btn {
+    background: var(--primary-light);
+    color: var(--primary-dark);
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]) {
+    background: var(--primary-yellow);
+    color: var(--primary-dark);
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
+#next-btn {
+    background: var(--primary-dark);
+    color: var(--primary-light);
+    font-size: 20px;
+    font-weight: 500;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    cursor: pointer;
+    border-radius: 4px;
+    display: none;
+}
+
+.correct {
+    background: #81E979;
+}
+
+.incorrect {
+    background: #F85A3E;
+}
 
 /* FOOTER */
 
@@ -58,6 +146,8 @@ body {
     padding: 10px;
     color: var(--primary-light);
     font-size: 20px;
+    text-align: center;
+    box-sizing: border-box;
 }
 
 .fa-github {
