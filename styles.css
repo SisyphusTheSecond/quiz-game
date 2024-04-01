@@ -159,3 +159,32 @@ body {
 .fa-github:hover {
     transform: rotate(360deg) scale(1.2);
 }
+
+@media only screen and (max-width: 600px) {
+    .app {
+        width: 95%; 
+        padding: 20px; 
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+    .quiz h2 {
+        font-size: 16px;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 8px; 
+    }
+
+    #next-btn {
+        font-size: 16px; 
+        padding: 8px; 
+    }
+
+    .footer {
+        font-size: 16px;
+    }
+}
