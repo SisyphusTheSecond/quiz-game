@@ -67,11 +67,10 @@ body {
 }
 
 .app h1 {
-    font-size: 18px;
     color: var(--primary-dark);
-    font-weight: 600;
+    font-weight: bolder;
     letter-spacing: .05rem;
-    font-family: 'Press Start 2P', cursive;
+    /* font-family: 'Press Start 2P', cursive; */
     border-bottom: 2px solid var(--primary-dark);
     padding-bottom: 30px;
 }
@@ -92,7 +91,7 @@ body {
     font-size: 20px;
     font-weight: 500;
     width: 100%;
-    border: 1px solid #222;
+    border: 2px solid #222;
     padding: 10px;
     margin: 10px 0;
     text-align: left;
@@ -160,6 +159,8 @@ body {
     transform: rotate(360deg) scale(1.2);
 }
 
+
+/* MEDIA QUERIES */
 @media only screen and (max-width: 600px) {
     .app {
         width: 95%; 
