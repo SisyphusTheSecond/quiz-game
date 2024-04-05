@@ -1,14 +1,5 @@
 const questions = [
     {
-        question: "Who made this Game: ",
-        answers: [
-            {text: "Application Program Interface", correct: true},
-            {text: "Advanced Programming Interface", correct: false},
-            {text: "Automated Protocol Integration", correct: false},
-            {text: "Application Process Integration", correct: false},
-        ]
-    },
-    {
         question: "What does the acronym 'API' stand for?",
         answers: [
             {text: "Application Program Interface", correct: true},
