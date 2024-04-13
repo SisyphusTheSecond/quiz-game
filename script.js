@@ -9,12 +9,29 @@ const questions = [
         ]
     },
     {
+        question: "Who made this game?",
+        answers: [
+            {text: "Oussama Safar Zitoun", correct: false},
+            {text: "Yacine Allal", correct: false},
+            {text: "Both of Them worked on it!", correct: true}
+        ]
+    },
+    {
         question: "What is the purpose of a version control system like Git?",
         answers: [
             {text: "To manage different versions of software code", correct: true},
             {text: "To optimize database performance", correct: false},
             {text: "To encrypt internet traffic", correct: false},
             {text: "To automate software testing", correct: false},
+        ]
+    },
+    {
+        question: "What's M. Raffa's most famous catchphrase?",
+        answers: [
+            {text: "", correct: true},
+            {text: "Put the phone down Ya Taleb", correct: true},
+            {text: "Get out of my class!", correct: false},
+            {text: "All of the Above", correct: false},
         ]
     },
     {
