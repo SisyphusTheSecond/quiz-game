@@ -26,15 +26,6 @@ const questions = [
         ]
     },
     {
-        question: "What's M. Raffa's most famous catchphrase?",
-        answers: [
-            {text: "", correct: true},
-            {text: "Put the phone down Ya Taleb", correct: true},
-            {text: "Get out of my class!", correct: false},
-            {text: "All of the Above", correct: false},
-        ]
-    },
-    {
         question: "What does the acronym 'CSS' stand for?",
         answers: [
             {text: "Code Security Standard", correct: false},
